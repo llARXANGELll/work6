@@ -1,11 +1,11 @@
 package work6.task1;
 
 import org.testng.annotations.Test;
-
 import java.util.Arrays;
 import java.util.List;
 
-public class compTest {
+
+public class CompTest {
 
     @Test
     public void compTest(){

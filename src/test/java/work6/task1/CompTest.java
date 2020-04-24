@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 
-class CompTest {
+public class CompTest {
 
     @Test
     public void compTest(){
@@ -15,8 +15,8 @@ class CompTest {
                 new Person(53,"Vova"),
                 new Person(22,"Ivan")
         );
-        System.out.println(personList);
 
+        System.out.println(personList);
         personList.sort(new PersonSuperComparator());
         System.out.println(personList);
     }

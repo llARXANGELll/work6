@@ -2,7 +2,7 @@ package work6.task2;
 
 import java.util.List;
 
-public interface Bascet {
+public interface Basket {
 
     void addProduct(String product, int quantity);
 
@@ -15,4 +15,5 @@ public interface Bascet {
     List<String> getProducts();
 
     int getProductQuantity(String product);
+
 }

@@ -7,7 +7,7 @@ public class RemoveEvenLenght {
     public Set<String> removeEvenLength(Set<String> set) {
         Set<String> arrayТames = new HashSet<>();
         for (String name : set) {
-            if (name.length()%2 != 0) {
+            if (name.length() % 2 != 0) {
                 arrayТames.add(name);
             }
         }

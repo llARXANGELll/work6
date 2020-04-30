@@ -8,8 +8,8 @@ public class SearchForDuplicateNames {
 
     public boolean isUnique(Map<String, String> map) {
         ArrayList<String> dublicate = new ArrayList<>();
-        for (String k : map.values()){
-            if(dublicate.contains(k)){
+        for (String k : map.values()) {
+            if (dublicate.contains(k)) {
                 return false;
             }
             dublicate.add(k);

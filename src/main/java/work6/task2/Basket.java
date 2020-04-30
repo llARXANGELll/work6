@@ -15,5 +15,4 @@ public interface Basket {
     List<String> getProducts();
 
     int getProductQuantity(String product);
-
 }

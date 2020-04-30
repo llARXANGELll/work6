@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
 
         RemoveEvenLenght removeEvenLenght = new RemoveEvenLenght();
-        Set <String> set = new HashSet();
+        Set<String> set = new HashSet();
         set.add("dsd");
         set.add("dsd1");
         set.add("dsd11");

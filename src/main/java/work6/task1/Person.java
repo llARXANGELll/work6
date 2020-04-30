@@ -2,8 +2,8 @@ package work6.task1;
 
 public class Person {
 
-    int age;
-    String name;
+    private int age;
+    private String name;
 
     public Person(int age, String name) {
         this.age = age;

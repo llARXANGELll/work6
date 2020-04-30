@@ -4,7 +4,7 @@ package work6.task3;
 import java.util.ArrayList;
 import java.util.Map;
 
-public class MapEqualsName {
+public class SearchForDuplicateNames {
 
     public boolean isUnique(Map<String, String> map) {
         ArrayList<String> dublicate = new ArrayList<>();

@@ -5,12 +5,12 @@ import java.util.Set;
 
 public class RemoveEvenLenght {
     public Set<String> removeEvenLength(Set<String> set) {
-        Set<String> result = new HashSet<>();
-        for (String v : set) {
-            if (v.length()%2 != 0) {
-                result.add(v);
+        Set<String> arrayТames = new HashSet<>();
+        for (String name : set) {
+            if (name.length()%2 != 0) {
+                arrayТames.add(name);
             }
         }
-        return result;
+        return arrayТames;
     }
 }

@@ -18,5 +18,4 @@ public class PersonSuperComparator implements Comparator {
 
         return p1.getName().compareTo(p2.getName());
     }
-
 }

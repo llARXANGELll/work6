@@ -12,6 +12,5 @@ public class Main {
         set.add("dsd2");
         set.add("dsd1");
         RemoveEvenLenght removeEvenLenght = new RemoveEvenLenght();
-        System.out.println(removeEvenLenght.removeEvenLength(set));
     }
 }

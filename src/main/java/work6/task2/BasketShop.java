@@ -9,19 +9,16 @@ public class BasketShop implements Basket {
     @Override
     public void addProduct(String product, int quantity) {
         map.put(product, quantity);
-        System.out.println(map);
     }
 
     @Override
     public void removeProduct(String product) {
         map.remove(product);
-        System.out.println(map);
     }
 
     @Override
     public void updateProductQuantity(String product, int quantity) {
         map.put(product, quantity);
-        System.out.println(map);
     }
 
     @Override

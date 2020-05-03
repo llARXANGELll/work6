@@ -18,7 +18,9 @@ public class BasketShop implements Basket {
 
     @Override
     public void updateProductQuantity(String product, int quantity) {
-        map.put(product, quantity);
+        int summ = map.get(product);
+        summ += quantity;
+        map.put(product, summ);
     }
 
     @Override
